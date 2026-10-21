@@ -33,16 +33,14 @@ modes:
   rigor: minimal
   automation: autonomous
 
-# TODO: confirm the exact Unity 6.3 LTS patch in Unity Hub > Installs. 6000.3.26f1
-# is the latest 6.3 LTS editor, not a probed install; if yours differs, fix
-# engine.version, engine.path and the editor path in commands.* via /settings.
+# Editor version read from ProjectSettings/ProjectVersion.txt (6000.3.22f1).
 engine:
   name: "Unity"
-  version: "6000.3.26f1"
+  version: "6000.3.22f1"
   language: "C#"
   rendering: "URP"
   physics: "PhysX"
-  path: "C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Unity.exe"
+  path: "C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Unity.exe"
 
 specialists:
   code: "unity-specialist"
@@ -60,7 +58,7 @@ naming:
   scenes: PascalCase
 
 commands:
-  build: '"C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Unity.exe" -batchmode -quit -projectPath . -buildTarget win64 -buildWindows64Player Builds/Win64/CoursierDesToits.exe'
-  test: '"C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Unity.exe" -batchmode -runTests -projectPath . -testPlatform EditMode -testResults test-results/editmode.xml'
+  build: '"C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Unity.exe" -batchmode -quit -projectPath . -buildTarget win64 -buildWindows64Player Builds/Win64/CoursierDesToits.exe'
+  test: '"C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Unity.exe" -batchmode -runTests -projectPath . -testPlatform EditMode -testResults test-results/editmode.xml'
   run: "Builds/Win64/CoursierDesToits.exe -screen-width 1280 -screen-height 720 -screen-fullscreen 0"
-  smoke: '"C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Unity.exe" -batchmode -quit -projectPath . -logFile -'
+  smoke: '"C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Unity.exe" -batchmode -quit -projectPath . -logFile -'

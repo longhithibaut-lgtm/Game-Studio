@@ -10,7 +10,7 @@
 
 ## Engine & Language
 
-- **Engine**: Unity 6.3 LTS (6000.3.26f1 — exact installed patch to confirm)
+- **Engine**: Unity 6.3 LTS (6000.3.22f1)
 - **Language**: C#
 - **Rendering**: URP
 - **Physics**: PhysX

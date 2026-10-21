@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Engine Version** | Unity 6.3 LTS |
-| **Installed at pin time** | Unity 6.3, exact patch NOT DETERMINED — reported by the developer on 2026-10-21 (Windows); not probed, because `/setup-engine` ran in a cloud container without the editor. `project.yaml` assumes 6000.3.26f1 until confirmed. |
+| **Installed at pin time** | 6000.3.22f1 (Windows) — read on 2026-10-21 from the project's `ProjectSettings/ProjectVersion.txt` (`6000.3.22f1 (1c726e1fb402)`); the editor binary itself was not probed, because `/setup-engine` ran in a cloud container without it. |
 | **Release Date** | December 2025 |
 | **Latest editor on the pinned line** | 6000.3.26f1 (Oct 8, 2026) |
 | **Project Pinned** | 2026-02-13 |
