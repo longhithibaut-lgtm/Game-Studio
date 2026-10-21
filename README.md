@@ -1,3 +1,17 @@
+> **Game-Studio** — projet de jeu construit sur le template
+> [Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)
+> v1.2.0 (licence MIT, © Donchitos). L'historique du template est conservé pour
+> pouvoir récupérer ses futures versions.
+>
+> **Démarrer :** ouvrir Claude Code à la racine du dépôt (`claude`), puis lancer
+> `/start` — il demande où en est le projet, configure le moteur et le niveau de
+> rigueur (`modes.rigor`) et écrit `project.yaml`.
+>
+> **Mettre à jour le template :** une fois
+> `git remote add template https://github.com/Donchitos/Claude-Code-Game-Studios.git`,
+> puis `git fetch --tags template main && git merge template/main`
+> (voir [UPGRADING.md](UPGRADING.md)).
+
 <p align="center">
   <h1 align="center">Claude Code Game Studios</h1>
   <p align="center">
